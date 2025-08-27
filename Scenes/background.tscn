@@ -1,0 +1,52 @@
+[gd_scene load_steps=5 format=3 uid="uid://dorbrraaxek6e"]
+
+[ext_resource type="Texture2D" uid="uid://d6yi2l8pxibu" path="res://Background/1.png" id="1_i7s6n"]
+[ext_resource type="Texture2D" uid="uid://dvv5w1a4vkx6r" path="res://Background/Clouds 1/2.png" id="2_2ivep"]
+[ext_resource type="Texture2D" uid="uid://cr0o5p0hdpxt2" path="res://Background/4.png" id="2_i7s6n"]
+[ext_resource type="Texture2D" uid="uid://c8h8w0hkgt6ga" path="res://Background/3.png" id="2_splo0"]
+
+[node name="Background" type="Node2D"]
+
+[node name="Sky" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.1, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(2, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="Sky"]
+position = Vector2(584, 324)
+scale = Vector2(2.02778, 2)
+texture = ExtResource("1_i7s6n")
+
+[node name="CloudsBack" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.2, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(5, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="CloudsBack"]
+position = Vector2(574.5, 337)
+scale = Vector2(1.99479, 1.90123)
+texture = ExtResource("2_i7s6n")
+
+[node name="CloudsBack2" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.8, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(8, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="CloudsBack2"]
+position = Vector2(574.5, 337)
+scale = Vector2(1.99479, 1.90123)
+texture = ExtResource("2_splo0")
+
+[node name="Clouds" type="Parallax2D" parent="."]
+scroll_scale = Vector2(0.5, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(10, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="Clouds"]
+position = Vector2(584, 340)
+scale = Vector2(2.02778, 1.90123)
+texture = ExtResource("2_2ivep")
