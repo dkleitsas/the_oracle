@@ -21,3 +21,12 @@ https://github.com/user-attachments/assets/4a7caa4a-2f30-4c85-b46b-7e15fb482a6b
 - Hosting: Managed container on Google Cloud Run
 
 - Development Workflow: Containerized with Docker; Node.js dependencies managed via package.json
+
+<br>
+Special thanks to:
+
+ToffeeCraft: https://toffeecraft.itch.io/cat-pack-halloween-edition
+
+Frostwindz: https://frostwindz.itch.io/fantasy-pixel-art-eggs
+
+craftpix: https://free-game-assets.itch.io/free-sky-with-clouds-background-pixel-art-set
