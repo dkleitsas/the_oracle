@@ -1,6 +1,6 @@
 # THE ORACLE
 
-An LLM powered feline trickster! This project is a Godot-based game that interacts with Google’s Gemini generative language models via a Node.js proxy hosted on Google Cloud Run. The proxy handles all API requests to Gemini, allowing the game to remain lightweight and secure. Try it out [here!]([https://link-url-here.org](https://jimmie-does-stuff.itch.io/the-oracle))
+An LLM powered feline trickster! This project is a Godot-based game that interacts with Google’s Gemini generative language models via a Node.js proxy hosted on Google Cloud Run. The proxy handles all API requests to Gemini, allowing the game to remain lightweight and secure. Try it out [here!](https://jimmie-does-stuff.itch.io/the-oracle)
 
 
 ### The threads of the future lay in your very grasp! Quiz THE MIGHTY CAT and all shall be revealed!
